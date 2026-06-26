@@ -91,16 +91,16 @@ Evaluation Metrics
   XGBoost achieved the strongest overall predictive performance among the evaluated classical machine learning models.
 
  ### Application Demo :
- **Similar Question** 
+ ***Similar Question** 
    
    <img width="1200" height="1300" alt="ChatGPT Image Jun 26, 2026, 08_27_25 PM" src="https://github.com/user-attachments/assets/cc5fcc62-4f1a-4693-b2a3-fa09b9548222" />
 
     
- **No duplicate Questions found** 
+ ***No duplicate Questions found** 
       
   <img width="1195" height="1316" alt="ChatGPT Image Jun 26, 2026, 10_06_43 PM" src="https://github.com/user-attachments/assets/aa27cb0a-524c-4bb3-b780-a6da117de92b" />
      
-  **Console Results**
+  ***Console Results**
     
   <img width="1691" height="930" alt="ChatGPT Image Jun 26, 2026, 10_12_58 PM" src="https://github.com/user-attachments/assets/ff8271a1-d162-44bd-b82e-f111735521e3" />
 
