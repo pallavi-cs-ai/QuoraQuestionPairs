@@ -93,21 +93,16 @@ Evaluation Metrics
  ### Application Demo :
  **Similar Question** 
    
-   <img src="./similarquestion.png" data-canonical-src="./similarquestion.png" width="400" height="400" ALIGN=”left” 
-   style="border: #00008B 4px solid;" />  
-   
-   <img width="1206" height="1305" alt="ChatGPT Image Jun 26, 2026, 08_27_25 PM" src="https://github.com/user-attachments/assets/cc5fcc62-4f1a-4693-b2a3-fa09b9548222" />
+   <img width="1200" height="1300" alt="ChatGPT Image Jun 26, 2026, 08_27_25 PM" src="https://github.com/user-attachments/assets/cc5fcc62-4f1a-4693-b2a3-fa09b9548222" />
 
     
  **No duplicate Questions found** 
       
-   
-   <img src="./Nopresent.png" data-canonical-src="./Nopresent.png" width="400" height="400" ALIGN=”left”           style="border: #00008B 4px solid;" />
-     
+  <img width="1195" height="1316" alt="ChatGPT Image Jun 26, 2026, 10_06_43 PM" src="https://github.com/user-attachments/assets/aa27cb0a-524c-4bb3-b780-a6da117de92b" />
      
   **Console Results**
     
-   <img src="./consoleResults.png" data-canonical-src="./consoleResults.png" width="800" height="400" ALIGN=”left” 
-  style="border: #00008B 4px solid;" />
+  <img width="1691" height="930" alt="ChatGPT Image Jun 26, 2026, 10_12_58 PM" src="https://github.com/user-attachments/assets/ff8271a1-d162-44bd-b82e-f111735521e3" />
+
 
    
