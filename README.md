@@ -1,7 +1,62 @@
-# QuoraQuestionPairs
-In this project, we are detecting the similarity between questions by training the XGboost model on the quora's dataset.
+# Semantic Duplicate Question Detection
+An end-to-end Natural Language Processing (NLP) application that identifies semantically similar questions using classical machine learning techniques. The system combines advanced text preprocessing, feature engineering, and supervised learning models, and is deployed through a Django web application.
 
-## Description :
+## Project Overview
+
+Large Q&A platforms frequently contain duplicate questions expressed using different wording.
+
+This project builds an end-to-end semantic duplicate-question detection pipeline using the Quora Question Pairs dataset. The solution performs NLP preprocessing, engineers interpretable textual similarity features, evaluates multiple machine learning models, and serves predictions through a Django-based web application.
+
+## Tech Stack
+
+- Python
+- Django
+- Scikit-learn
+- XGBoost
+- NLTK
+- Pandas
+- NumPy
+
+## System Architecture
+
+The application follows a complete machine learning workflow from user input through preprocessing, feature engineering, model inference, and real-time prediction delivery.
+
+<img width="1536" height="1024" alt="ChatGPT Image Jun 26, 2026, 07_01_46 PM" src="https://github.com/user-attachments/assets/9d7de622-6bfe-4e05-b926-1217fe0065c7" />
+
+## NLP Pipeline
+
+### Text Preprocessing
+
+- Acronym expansion
+- Token normalization
+- Stopword handling
+- Semantic stopword retention
+- Stemming
+- Unit normalization
+
+### Feature Engineering
+
+- TF-IDF
+- Bag-of-Words
+- Cosine Similarity
+- Digit Matching
+- Mathematical Expression Similarity
+
+### Model Evaluation
+
+Compared
+
+- Random Forest
+- Naive Bayes
+- SVM
+- XGBoost
+
+Evaluation Metrics
+
+- Accuracy
+- Log Loss
+- F1 Score
+
 
 ###  Dataset: https://www.kaggle.com/c/quora-question-pairs/data
   The dataset used for this analysis was provided by  Quora , released as their first public dataset as described above. 
@@ -13,36 +68,43 @@ In this project, we are detecting the similarity between questions by training t
 •    question2 : full  unicode  text  of the  second question
 •    is_duplicate : label 1 if questions are duplicates,  0  otherwise
 
-### Classes :
+### Project Structure :
    -  **Cleaning.py**
-      In this class, we preprocess the quora's question pair set by checking for spelling check,removing for stopwords and stemming. 
+      Performs NLP preprocessing including spelling correction, stemming, stopword handling, acronym expansion, and token normalization.
      
    -  **Features.py**
-      In this class , we extract features for training xgboost model.
-      Feature set :
-      word match between two sentences
-      tdIDF for two sentences 
+      Extracts textual similarity features including TF-IDF, Bag-of-Words, cosine similarity, and engineered semantic features used for model
+      training.
       
    -  **ConnectionFront.py**
-      In this class , the request from user is given to the model for prediction . After receiving the prediction, we render 
-      to the user the results of prediction.
-      
- ### Output :
-  - **Similar Question** 
+      Handles incoming user requests from the Django application, performs inference using the trained model, and renders duplicate-question
+      predictions.
+
+ ### Results
+
+  The trained models were evaluated using:
+  
+  - Accuracy
+  - Log Loss
+  - F1 Score
+  
+  XGBoost achieved the strongest overall predictive performance among the evaluated classical machine learning models.
+
+ ### Application Demo :
+ **Similar Question** 
    
    <img src="./similarquestion.png" data-canonical-src="./similarquestion.png" width="400" height="400" ALIGN=”left” 
-   style="border: #00008B 4px solid;" />
+   style="border: #00008B 4px solid;" />  
     
-    
-    
-  - **No duplicate Questions found** 
+ **No duplicate Questions found** 
       
    
    <img src="./Nopresent.png" data-canonical-src="./Nopresent.png" width="400" height="400" ALIGN=”left”           style="border: #00008B 4px solid;" />
      
      
-  - **Console Results**
+  **Console Results**
     
    <img src="./consoleResults.png" data-canonical-src="./consoleResults.png" width="800" height="400" ALIGN=”left” 
   style="border: #00008B 4px solid;" />
+
    
