@@ -95,6 +95,9 @@ Evaluation Metrics
    
    <img src="./similarquestion.png" data-canonical-src="./similarquestion.png" width="400" height="400" ALIGN=”left” 
    style="border: #00008B 4px solid;" />  
+   
+   <img width="1206" height="1305" alt="ChatGPT Image Jun 26, 2026, 08_27_25 PM" src="https://github.com/user-attachments/assets/cc5fcc62-4f1a-4693-b2a3-fa09b9548222" />
+
     
  **No duplicate Questions found** 
       
