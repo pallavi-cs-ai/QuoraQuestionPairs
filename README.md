@@ -97,13 +97,15 @@ Evaluation Metrics
    <img width="1200" height="1300" alt="ChatGPT Image Jun 26, 2026, 08_27_25 PM" src="https://github.com/user-attachments/assets/cc5fcc62-4f1a-4693-b2a3-fa09b9548222" />
 
   
-  ## ❌ Example: No Duplicate Questions Found
+## ❌ Example: No Duplicate Questions Found
 
-    The model determines that the submitted query has no semantically similar questions in the dataset.
+The model determines that the submitted query has no semantically similar questions in the dataset.
 
-    <p align="center">
-          <img width="1195" height="1316" alt="ChatGPT Image Jun 26, 2026, 10_06_43 PM" src="https://github.com/user attachments/assets/aa27cb0a-524c-4bb3-b780-a6da117de92b" />
-      </p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aa27cb0a-524c-4bb3-b780-a6da117de92b"
+       alt="No Duplicate Questions Found"
+       width="900">
+</p>
      
   ***Console Results***
     
