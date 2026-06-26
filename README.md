@@ -92,11 +92,18 @@ Evaluation Metrics
 
  ### Application Demo :
  
- ***Similar Question***
-   
-   <img width="1200" height="1300" alt="ChatGPT Image Jun 26, 2026, 08_27_25 PM" src="https://github.com/user-attachments/assets/cc5fcc62-4f1a-4693-b2a3-fa09b9548222" />
+## ✅ Example: Duplicate Questions Found
 
-  
+The model identifies semantically similar questions from the Quora Question Pairs dataset for the submitted query.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cc5fcc62-4f1a-4693-b2a3-fa09b9548222"
+       alt="Duplicate Questions Found"
+       width="900">
+</p>
+
+---
+
 ## ❌ Example: No Duplicate Questions Found
 
 The model determines that the submitted query has no semantically similar questions in the dataset.
@@ -106,10 +113,15 @@ The model determines that the submitted query has no semantically similar questi
        alt="No Duplicate Questions Found"
        width="900">
 </p>
-     
-  ***Console Results***
-    
-  <img width="1691" height="930" alt="ChatGPT Image Jun 26, 2026, 10_12_58 PM" src="https://github.com/user-attachments/assets/ff8271a1-d162-44bd-b82e-f111735521e3" />
 
+---
 
-   
+## 💻 Console Output
+
+The console displays the prediction process, identified duplicate questions, and runtime logs generated during model inference.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ff8271a1-d162-44bd-b82e-f111735521e3"
+       alt="Console Output"
+       width="900">
+</p>
